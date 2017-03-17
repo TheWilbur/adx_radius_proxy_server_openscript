@@ -1,1 +1,3 @@
-# adx_radius_proxy_server_openscript
+# Brocade ADX Radius Proxy Server Openscript
+
+AN OPENSCRIPT USEFUL TO REDIRECT RADIUS PACKETS TO SPECIFIC SERVER GROUPS BASED ON VALUES IN THE PACKET
