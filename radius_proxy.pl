@@ -29,7 +29,7 @@ sub UDP_CLIENT_DATA {
     # Vendor Specific Values will be stored as 'vendor_code-type' as the hash key.
     #
     ####################################################################################
-    my $udp_data = OS_UDP:Payload;
+    my $udp_data = OS_UDP::Payload;
     my %tlv = ();
     my $i = $RADIUS_START_OF_TLV;
     while ($i < length($udp_data)) {
